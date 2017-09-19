@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE1323391F70DAA90004F300 /* Bach.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EE1323321F70DAA90004F300 /* Bach.jpg */; };
+		EE13233A1F70DAA90004F300 /* Beethoven.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EE1323331F70DAA90004F300 /* Beethoven.jpg */; };
+		EE13233B1F70DAA90004F300 /* Pachelbel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EE1323341F70DAA90004F300 /* Pachelbel.jpg */; };
+		EE13233C1F70DAA90004F300 /* aria.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE1323361F70DAA90004F300 /* aria.mp3 */; };
+		EE13233D1F70DAA90004F300 /* cannon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE1323371F70DAA90004F300 /* cannon.mp3 */; };
+		EE13233E1F70DAA90004F300 /* elise.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE1323381F70DAA90004F300 /* elise.mp3 */; };
 		EE56808F1F70B7260081B0F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE56808E1F70B7260081B0F6 /* AppDelegate.swift */; };
 		EE5680911F70B7260081B0F6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5680901F70B7260081B0F6 /* ViewController.swift */; };
 		EE5680941F70B7260081B0F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE5680921F70B7260081B0F6 /* Main.storyboard */; };
@@ -34,6 +40,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EE1323321F70DAA90004F300 /* Bach.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bach.jpg; sourceTree = "<group>"; };
+		EE1323331F70DAA90004F300 /* Beethoven.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Beethoven.jpg; sourceTree = "<group>"; };
+		EE1323341F70DAA90004F300 /* Pachelbel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Pachelbel.jpg; sourceTree = "<group>"; };
+		EE1323361F70DAA90004F300 /* aria.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = aria.mp3; sourceTree = "<group>"; };
+		EE1323371F70DAA90004F300 /* cannon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cannon.mp3; sourceTree = "<group>"; };
+		EE1323381F70DAA90004F300 /* elise.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = elise.mp3; sourceTree = "<group>"; };
 		EE56808B1F70B7260081B0F6 /* TechPod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TechPod.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE56808E1F70B7260081B0F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EE5680901F70B7260081B0F6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -74,6 +86,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EE1323301F70DAA90004F300 /* Resources1 */ = {
+			isa = PBXGroup;
+			children = (
+				EE1323311F70DAA90004F300 /* Images */,
+				EE1323351F70DAA90004F300 /* Songs */,
+			);
+			path = Resources1;
+			sourceTree = "<group>";
+		};
+		EE1323311F70DAA90004F300 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				EE1323321F70DAA90004F300 /* Bach.jpg */,
+				EE1323331F70DAA90004F300 /* Beethoven.jpg */,
+				EE1323341F70DAA90004F300 /* Pachelbel.jpg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		EE1323351F70DAA90004F300 /* Songs */ = {
+			isa = PBXGroup;
+			children = (
+				EE1323361F70DAA90004F300 /* aria.mp3 */,
+				EE1323371F70DAA90004F300 /* cannon.mp3 */,
+				EE1323381F70DAA90004F300 /* elise.mp3 */,
+			);
+			path = Songs;
+			sourceTree = "<group>";
+		};
 		EE5680821F70B7260081B0F6 = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +138,7 @@
 		EE56808D1F70B7260081B0F6 /* TechPod */ = {
 			isa = PBXGroup;
 			children = (
+				EE1323301F70DAA90004F300 /* Resources1 */,
 				EE56808E1F70B7260081B0F6 /* AppDelegate.swift */,
 				EE5680901F70B7260081B0F6 /* ViewController.swift */,
 				EE5680921F70B7260081B0F6 /* Main.storyboard */,
@@ -232,9 +274,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE13233B1F70DAA90004F300 /* Pachelbel.jpg in Resources */,
+				EE13233A1F70DAA90004F300 /* Beethoven.jpg in Resources */,
 				EE5680991F70B7260081B0F6 /* LaunchScreen.storyboard in Resources */,
+				EE1323391F70DAA90004F300 /* Bach.jpg in Resources */,
 				EE5680961F70B7260081B0F6 /* Assets.xcassets in Resources */,
+				EE13233E1F70DAA90004F300 /* elise.mp3 in Resources */,
+				EE13233D1F70DAA90004F300 /* cannon.mp3 in Resources */,
 				EE5680941F70B7260081B0F6 /* Main.storyboard in Resources */,
+				EE13233C1F70DAA90004F300 /* aria.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,6 +553,7 @@
 				EE5680B51F70B7260081B0F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EE5680B61F70B7260081B0F6 /* Build configuration list for PBXNativeTarget "TechPodTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +562,7 @@
 				EE5680B81F70B7260081B0F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EE5680B91F70B7260081B0F6 /* Build configuration list for PBXNativeTarget "TechPodUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +571,7 @@
 				EE5680BB1F70B7260081B0F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
